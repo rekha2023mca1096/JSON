@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Second Example of JSON</h2>
+<p id="demo">
+</p>
+<script>
+const txt='{"name":"ANKIT","age":23,"city":"INDIA"}'
+const obj=JSON.parse(txt);
+document.getElementById("demo").innerHTML=obj.name+","+obj.age;
+</script>
+</body>
+</html>
