@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Second Example of JSON</h2>
+<p id="demo">
+</p>
+<script>
+var jsonobject={name:"ankit",age:38}
+jsonobject.age=38;
+var jsonstr=JSON.stringify(jsonobject);
+document.write(jsonstr+"</br>");
+jsonstr=JSON.stringify(jsonobject.age);
+
+var newjobj=JSON.parse(jsonstr);
+document.write(newjobj+"</br");
+window.open("first.html?valu="+jsonstr);
+</script>
+</body>
+</html>
