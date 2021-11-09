@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> Example</h2>
+<p id="demo"></p>
+<script>
+var jsonobj=[{"name":"ABC","age":"3","class":"4"},{"name":"GHI","age":"30","class":"5"},{"name":"DEF","age":"13","class":"6"}];
+for(let i=0;i<jsonobj.length;i++)
+{
+document.write(jsonobj[i].name+"</br>");
+}
+document.write(jsonobj[0].name);
+document.write(jsonobj[1].age);
+document.write(jsonobj[2].name);
+</script>
+</body>
+</html>
